@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails'
 # Ruby version
 ruby '2.3.7'
 # Use postgresql as the database for Active Record
@@ -50,6 +50,7 @@ gem 'puma'
 gem 'bundler'
 # Use Unicorn as the app server
 # gem 'unicorn'
+gem 'carrierwave'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
